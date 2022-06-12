@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+#toss_canvas {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Toss buttons */
+
+/* Tail */
+
+#tail {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(170, 218, 128);
+    position: fixed;
+    top: 44%;
+    left: 55%;
+}
+
+#tail:hover {
+    background-color: #3e8e41
+}
+
+#tail:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Head */
+
+#head {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(170, 218, 128);
+    position: fixed;
+    top: 44%;
+    left: 42%;
+}
+
+#head:hover {
+    background-color: #3e8e41
+}
+
+#head:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    text-decoration-color: rgb(246, 0, 0);
+}
+
+#toss_output {
+    display: none;
+    padding: 15px 25px;
+    font-size: 24px;
+    position: fixed;
+    top: 45%;
+    left: 47%;
+    color: rebeccapurple;
+    outline: 5px groove green;
+    outline-offset: 150px;
+}
+
+#choice {
+    display: none;
+}
+
+#bat {
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #cac231;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(176, 174, 38);
+    position: fixed;
+    top: 55%;
+    left: 42%;
+}
+
+#bat:hover {
+    background-color: #f2f200
+}
+
+#bat:active {
+    background-color: #ffee00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    text-decoration-color: rgb(246, 0, 0);
+}
+
+#bowl {
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #cac231;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(176, 174, 38);
+    position: fixed;
+    top: 55%;
+    left: 52%;
+}
+
+#bowl:hover {
+    background-color: #f2f200
+}
+
+#bowl:active {
+    background-color: #ffee00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    text-decoration-color: rgb(246, 0, 0);
+}
+
+#toss_loss {
+    display: none;
+    padding: 15px 25px;
+    font-size: 24px;
+    position: fixed;
+    top: 50%;
+    left: 41%;
+    color: rebeccapurple;
+}
+
+#system_choice {
+    display: none;
+    padding: 15px 25px;
+    font-size: 24px;
+    position: fixed;
+    top: 55%;
+    left: 40%;
+    color: rebeccapurple;
+}
+
+#play {
+    display: none;
+}
+
+
+#canvas {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}

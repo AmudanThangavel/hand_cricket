@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--- Toss HTML --->
+    <section id="toss">
+        <canvas id="toss_canvas" alt="" width="800" height="500"></canvas>
+        <div id="toss_input">
+            <button type="button" id="head" onclick="tosser('Head')">Head</button>
+            <button type="button" id="tail" onclick="tosser('Tail')">Tail</button>
+        </div>
+
+        <div id="toss_output">
+            <p id="toss_out"></p>
+            <p id="toss_loss"></p>
+            <p id="system_choice"></p>
+        </div>
+        <div id="choice">
+            <button id="bat" type="button" onclick='chooseTo("bat")'>Batting</button>
+            <button id="bowl" type="button" onclick='chooseTo("bowl")'>Bowling</button>
+        </div>
+    </section>
+
+
+    <div id="play">
+        <canvas id="canvas" alt="" width="800" height="500"></canvas>
+        <button type="button" id="one" onclick=randomNumber()>1</button>
+        <button type="button" id="two" onclick=randomNumber()>2</button>
+        <button type="button" id="three" onclick=randomNumber()>3</button>
+        <button type="button" id="four" onclick=randomNumber()>4</button>
+        <button type="button" id="five" onclick=randomNumber()>5</button>
+        <button type="button" id="six" onclick=randomNumber()>6</button>
+    </div>
+    <p id="output_num"></p>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
